@@ -15,7 +15,11 @@ Framework: Spring Boot 2.7.0
 Build Tool: Maven
 
 GET	/topics	Retrieve all topics
+
 GET	/topics/{id}	Retrieve a specific topic by ID
+
 POST	/topics	Add a new topic
+
 PUT	/topics/{id}	Update an existing topic
+
 DELETE	/topics/{id}	Remove a topic.
